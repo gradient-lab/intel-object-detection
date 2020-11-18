@@ -25,9 +25,6 @@ OpenVINO: 2020.2.0
 
 ## 데이터 및 모델
  강의에서 사용할 자료는 [Google Drive](https://drive.google.com/drive/folders/1YIFbhaCjaIQRsWTVaq6o6h9FFjdQ9Zkr?usp=sharing)에 업로드에 되어있습니다. 여기서 자료를 다운로드 후 사용하시길 바랍니다. `data`라는 폴더를 생성 후 압축을 해제해주시길 바랍니다. 만약 다운로드에 어려움이 생긴다면 `minsuksung@korea.ac.kr`로 연락주시길 바랍니다. 해당 튜토리얼에서 활용된 자료는 아래를 참고하였습니다.
-- [Oxford-IIIT Pet Dataset - University of Oxford](https://www.robots.ox.ac.uk/~vgg/data/pets/): https://drive.google.com/file/d/194syAabv5U5IarkTlhoUv9Yegw7jXB-w/view?usp=sharing
-- ckpt: https://drive.google.com/drive/folders/1f1NgrBLSfJubDwgrNmxHnfWnzCwS5hq6?usp=sharing
-- pbtxt: https://drive.google.com/file/d/1rGVYzCIMmMWrIDj0-8C1qF6dNhvI5pmK/view?usp=sharing
 
 ## 강의 구성
  기본적으로 본 예제는 중/고등학생 및 비전문가도 쉽게 딥러닝을 이용할 수 있게 구성된 Tensorflow API를 활용하여 객체 인식해보는 예제입니다. 1강은 MSCOCO Dataset으로 미리 학습(pre-trained)된 Faster R-CNN으로 추론하는 예제부터 마지막에선 Tensorflow 버전의 모델을 OpenVINO 버전의 모델로 변환하여 속도를 증가시키는 방법을 배웁니다.
